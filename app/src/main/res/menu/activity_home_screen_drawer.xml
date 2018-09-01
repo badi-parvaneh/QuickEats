@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/check_status"
+            android:title="Check Status" />
+        <item
+            android:id="@+id/order_now"
+            android:title="Order Now" />
+        <item
+            android:id="@+id/payment"
+            android:title="Payment" />
+        <item
+            android:id="@+id/order_history"
+            android:title="Order History" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+    </group>
+
+</menu>
